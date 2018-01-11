@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "01bb55b1a5916c8c3e92d9d9d7b5edeb29efa03bba6cec886362ce938223c9a3"
+            "sha256": "e24b35202ec8d6fa67e164262a4294ca84ff43b9fbf84ae2930ac8596d957ca3"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -29,12 +29,32 @@
         ]
     },
     "default": {
+        "anvil-uplink": {
+            "hashes": [
+                "sha256:904fa37485c03327e45bb77d0652c315282167e81f78abccde3155c3789d5929",
+                "sha256:defea76112dc400c0925041ea4407d7cc47d3feeb65b60e1ffbe53c6cc7ae886"
+            ],
+            "version": "==0.3.13"
+        },
+        "argparse": {
+            "hashes": [
+                "sha256:c31647edb69fd3d465a847ea3157d37bed1f95f19760b11a47aa91c04b666314",
+                "sha256:62b089a55be1d8949cd2bc7e0df0bddb9e028faefc8c32038cc84862aefdd6e4"
+            ],
+            "version": "==1.4.0"
+        },
         "faker": {
             "hashes": [
                 "sha256:2f6ccc9da046d4cd20401734cf6a1ac73a4e4d8256e7b283496ee6827ad2eb60",
                 "sha256:e928cf853ef69d7471421f2a3716a1239e43de0fa9855f4016ee0c9f1057328a"
             ],
             "version": "==0.8.8"
+        },
+        "future": {
+            "hashes": [
+                "sha256:e39ced1ab767b5936646cedba8bcce582398233d6a627067d4c6a454c90cfedb"
+            ],
+            "version": "==0.16.0"
         },
         "mongoengine": {
             "hashes": [
@@ -114,6 +134,13 @@
                 "sha256:d0afd5e8a7ac69bfb1372e1bbfa3c63c22e3db8ae1284690e96b45c4430d08d0"
             ],
             "version": "==1.1"
+        },
+        "ws4py": {
+            "hashes": [
+                "sha256:85d5c01bb0d031e151a32fad56094caf54e20c2ddb51cf25b5709421ff92d007",
+                "sha256:fdb742d95a43b7fa16e3aff83b426bd1aee6013146fcc6af87df53420448f51f"
+            ],
+            "version": "==0.3.4"
         }
     },
     "develop": {}

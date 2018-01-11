@@ -9,6 +9,7 @@ name = "pypi"
 
 faker = "*"
 mongoengine = "*"
+anvil-uplink = "*"
 
 
 [dev-packages]
