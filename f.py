@@ -1,0 +1,5 @@
+person = Employee()
+person.county_id = str(randint(1, 10000))
+person.last_name = fake.last_name()
+person.first_name = fake.first_name()
+person.save()
